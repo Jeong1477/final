@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* background-color: #000; */
+    z-index: 10;
+    background: radial-gradient(
+        rgba(110, 110, 110, 0.3),
+        rgba(0, 0, 0, 0.8)
+    );
+}
+.wrap{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 20;
+}
+.logo{height: 230px;text-align: center;padding-top: 132px;}
+.subcopy{
+    height: 119px;
+    padding-top: 251px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    font-family: "Noto Sans KR", sans-serif;
+}
+.bt00{height: 20px;padding-top: 40px;text-align: center;}
+
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBAggroM';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'Dovemayo_wild';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/Dovemayo_wild.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fon01{font-family: 'Dovemayo_wild';}
+.font02{font-family: 'SBAggroB';}
+.font03{font-family: 'GmarketSansMedium';}
+
+.block01{width: 430px; height: 97px;
+        background-image: url(img/deep\ banner.png);
+        }
+
+.block02{width: 430px; height: 254px;
+        background-image: url(img/kim\ photo.png);
+        }
+
+.block03{width: 430px; height: 258px;
+        background-image: url(img/yoon\ t\ photo.png);
+        }
+
+.block04{width: 430px; height: 262px;
+        background-image: url(img/yoon\ h\ photo.png);
+        }
+
+.block05{width: 430px; height: 1695px;
+        background-color: black;}
+.bg06{width: 430px; height: 1695px;}
+
+
+.cont01{width: 84px;
+        height: 35px;
+        top: 50px;
+        left: 191px;
+        position: relative;}
+
+.cont02{width: 56px;
+        height: 18px;
+        top: 30px;
+        left: 281px;
+        position: relative;}
+
+.cont03{width: 210px;
+        height: 77px;
+        top: 40px;
+        left: 190px;
+        position: relative;}
+
+.cont04{width: 100px;
+        height: 35px;
+        top:50px;
+        left: 59px;
+        position: relative;}
+
+.cont05{width: 56px;
+        height: 18px;
+        top: 29px;
+        left: 157px;
+        position: relative;}
+
+.cont06{width: 201px;
+        height: 77px;
+        top: 35px;
+        left: 58px;
+        position: relative;}
+
+.cont07{width: 84px;
+        height: 35px;
+        top: 66px;
+        left: 200px;
+        position: relative;}
+
+.cont08{width: 58px;
+        height: 18px;
+        top: 42px;
+        left: 298px;
+        position: relative;}
+
+.cont09{width: 139px;
+        height: 77px;
+        top: 53px;
+        left: 199px;
+        position: relative;}
+
+.cont10{width: 177px;
+        height: 36px;
+        top: 35px;
+        left: 110px;
+        position: relative;}
+
+.cont11{width: 211.84px;
+        height: 109.69px;
+        top: 158px;
+        left: 9px;
+        position: relative;}
+
+.cont12{width: 127px;
+        height: 31px;
+        top: 75px;
+        left: 265px;
+        position: relative;}
+
+.cont13{width: 190px;
+        height: 76px;
+        top: 95px;
+        left: 235px;
+        position: relative;}
+
+.cont14{width: 188.92px;
+        height: 234.88px;
+        top: 235px;
+        left: 220px;
+        position: relative;}
+
+.cont15{width: 166px;
+        height: 31px;
+        top: 45px;
+        left: 25px;
+        position: relative;}
+
+.cont16{width: 200px;
+        height: 96px;
+        top: 55px;
+        left: 10px;
+        position: relative;}
+
+.cont17{width: 190.69px;
+        height: 238.53px;
+        top: 170px;
+        left: 15px;
+        position: relative;}
+
+.cont18{width: 142px;
+        height: 31px;
+        top: -30px;
+        left: 240px;
+        position: relative;}
+
+.word19{width: 210px;
+        height: 76px;
+        top: -20px;
+        left: 210px;
+        position: relative;}
+
+.cont20{width: 120px;
+        height: 26px;
+        top: 150px;
+        left: 150px;
+        position: relative;}
+
+.cont21{width: 41px;
+        height: 26px;
+        top: 165px;
+        left: 185px;
+        position: relative;}
+
+.cont22{width: 223px;
+        height: 48px;
+        top: 240px;
+        left: 180px;
+        position: relative;}
+
+.cont23{width: 124px;
+        height: 124px;
+        top: 260px;
+        left: 15px;
+        position: relative;}
+
+.cont24{width: 60px;
+        height: 38px;
+        top: 160px;
+        left: 180px;
+        position: relative;}
+
+.cont25{width: 209px;
+        height: 16px;
+        top: -18px;
+        left: 10px;
+        position: relative;}
+
+.cont26{width: 60px;
+        height: 38px;
+        top: 15px;
+        left: 0px;
+        position: relative;}
+
+.cont27{width: 220px;
+        height: 16px;
+        top: -15px;
+        left: 10px;
+        position: relative;}
+
+.cont28{width: 60px;
+        height: 38px;
+        top: 15px;
+        left: 0px;
+        position: relative;}
+
+.cont29{width: 220px;
+        height: 16px;
+        top: -15px;
+        left: 10px;
+        position: relative;}
+
+.cont30{width: 60px;
+        height: 38px;
+        top: 10px;
+        left: 0px;
+        position: relative;}
+
+.cont31{width: 220px;
+        height: 16px;
+        top: -8px;
+        left: 10px;
+        position: relative;}
+
+        
+.word01{font-size: 29px; 
+        font-family:  'SBAggroB';
+        color: white;
+        stroke: #DB8686;
+        stroke-width: 1px;}
+
+.word02{font-size: 14px;
+        font-family: 'Dovemayo_wild';
+        color: white;}
+
+.word03{font-size: 14px;
+        font-family: 'SBAggroM';
+        color: white;
+        text-shadow: 2px 2px 2px black;}
+
+.word04{font-size: 29px;
+        font-family: 'SBAggroB';
+        color: white;}
+
+.word05{font-size: 14px;
+        font-family: 'Dovemayo_wild';
+        color: white;}
+
+.word06{font-size: 14px;
+        font-family: 'SBAggroM';
+        color: white;
+        text-shadow: 2px 2px 2px black;}
+
+.word07{font-size: 29px;
+        font-family: 'SBAggroB';
+        color: white;}
+
+.word08{font-size: 14;
+        font-family: 'Dovemayo_wild';
+        color: white;}
+
+.word09{font-size: 14px;
+        font-family: 'SBAggroM';
+        color: white;
+        text-shadow: 2px 2px 2px black;}
+
+.word10{font-size: 29px;
+        font-family: 'Dovemayo_wild';
+        color: white;}   
+
+.word12{font-size: 25px;
+        font-family: 'Dovemayo_wild';
+        color: white;}
+
+.word13{font-size: 14px;
+        font-family: 'GmarketSansMedium';
+        color: white;
+        text-align: center;}
+
+.word15{font-size: 25px;
+        font-family: 'Dovemayo_wild';
+        color: white;
+        text-align: center;}
+
+.word16{font-size: 14px;
+        font-family: 'GmarketSansMedium';
+        color: white;
+        text-align: center;}
+
+.word18{font-size: 25px;
+        font-family: 'Dovemayo_wild';
+        color: white;}
+
+.word19{font-size: 14px;
+        font-family: 'GmarketSansMedium';
+        color: white;
+        text-align: center;}
+
+.word20{font-size: 21px;
+        font-family: 'Dovemayo_wild';
+        color: white;}
+
+.word22{font-size: 18px;
+        font-family: 'Dovemayo_wild';
+        color: white;}
+
+.word24{font-size: 14px;
+        font-family: 'Dovemayo_wild';
+        color: white;}
+
+.word26{font-size: 14px;
+        font-family: 'Dovemayo_wild';
+        color: white;}
+
+.word28{font-size: 14px;
+        font-family: 'Dovemayo_wild';
+        color: white;}
+
+.word30{font-size: 14px;
+        font-family: 'Dovemayo_wild';
+        color: white;}
+
+.word32{font-size: 12px;
+        font-family: 'GmarketSansMedium';
+        color: white;}
+
+.word33{font-size: 12px;
+        font-family: 'GmarketSansMedium';
+        color: white;}
+
+.word34{font-size: 12px;
+        font-family: 'GmarketSansMedium';
+        color: white;}
+
+.txt01{width: 127px;
+        height: 24px;
+        position: relative;
+        top: 149px;
+        left: -40px;
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        font-family: 'GmarketSansMedium';}
+
+
+
